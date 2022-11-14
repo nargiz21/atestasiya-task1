@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{  
+    height:100vh;
+    /* background-repeat: no-repeat; */
+    
+    background: url(./images/pascal-debrunner-fN4AI657PNI-unsplash.jpg) no-repeat ;
+    background-size: 100%;
+}
+nav{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    height:50px
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:250px;
+    list-style: none;
+}
+.text-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+    height:calc(100% - 50px);
+}
+h1{
+    font-size: 40px;
+}
